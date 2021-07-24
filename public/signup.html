@@ -11,7 +11,38 @@
     
   </head>
   <body>
-    
+    <section class="hero is-primary"> 
+        <div class="hero-body">
+            <p class="title">
+            Small hero
+            </p>
+            <p class="subtitle">
+            Small subtitle
+            </p>
+        </div>
+    </section>
+        <div class= "columns">
+        <div class = "column is-half is-offset-one-quarter">
+            <form class="box">
+            <div class="field">
+            <label class="label">Choose a Username</label>
+            <div class="control">
+                <input class="input" type="text" id = "submit_name" placeholder="Choose a username">
+            </div>
+            </div>
+
+            <div class="field">
+            <label class="label">Choose a Password</label>
+            <div class="control">
+                <input class="input" id = "submit_password" type="password" placeholder="********">
+            </div>
+            </div>
+
+            <button class="button is-primary" id ="signup">Sign up</button>
+        </form>
+        </div>
+        </div>
+   
     
         
 
@@ -19,7 +50,7 @@
             <!-- Example -->
                 <h1 id="bigOne"></h1>
             <!-- End of example -->
-            
+
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-database.js"></script>
